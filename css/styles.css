@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #263238;
+  padding-top: 150px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FAFAFA;
+  color: #263238;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+  cursor: pointer;
+}
+
+#header:hover {
+  color: #F44336;
+}
+
+._track_ {
+  margin: 0 auto;
+}
+
+._track_ button {
+  background-color: #263238;
+  padding: 10px;
+  border: 10px solid #F5F5F5;
+  border-radius: 2px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+._track_ button.on {
+  background-color: #F44336;
+  border-color: #F44336;
+}
+
+._track_ button.ticked {
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+}
+
+._track_ span {
+  display: block;
+  float: left;
+  width: 240px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  padding: 8px;
+  margin-top: 4px;
+  margin-right: 10px;
+  border-radius: 2px;
+  border: 5px solid #FAFAFA;
+  cursor: pointer;
+  text-overflow: hidden;
+}
+
+._track_ span:hover {
+  border-color: #F44336;
+  background-color: #F44336;
+}
+
+._track_ i {
+  display: block;
+  float: right;
+  color: #FAFAFA;
+  background-color: #263238;
+  border-radius: 50%;
+  border: 5px solid #FAFAFA;
+  padding: 5px 9px;
+  margin-left: 8px;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+._track_ i:hover {
+  border-color: #F44336;
+  background-color: #F44336;
+}
+
+#controls {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+#_controls_ div {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#_controls_ span, #_controls_ input {
+  display: inline-block;
+  width: 130px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #263238;
+  font-size: 14px;
+  padding: 5px 10px; 
+  border: 5px solid #263238;
+  border-radius: 2px;
+  margin: 20px 5px 0 5px;
+}
+
+#_controls_ span:hover, #_controls_ input:hover{
+  color: #FAFAFA;
+  background-color: #263238;
+}
+
+#_controls_ input {
+  outline: none;
+}
+
+#_sound-selector_ {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: #37474F;
+  color: #FAFAFA;
+  top: 0;
+  padding: 30px;
+  transition: opacity 0.5s;
+}
+
+#_sound-selector_ span {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+#_sound-selector_ > p {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px;
+  padding-top: 60px;
+  color: #FAFAFA;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-bottom: 5px solid #FAFAFA;
+  clear: both;
+}
+
+#_sound-selector_ div p {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 180px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 2px;
+  border: 4px solid #FAFAFA;
+  cursor: pointer;
+}
+
+#_sound-selector_ div p:hover {
+  background-color: #FAFAFA;
+  color: #37474F;
+}
+
+#_sound-selector_.visible {
+  display: block;
+}
+
+noscript {
+  display: block;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #FAFAFA;
+  text-align: center;
+}
