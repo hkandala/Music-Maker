@@ -1,0 +1,572 @@
+{
+    "default_BPM": 200,
+    "default_ticks": 16,
+    "default_tracks": [
+        {
+            "group": "Bass Drum",
+            "name": "BD5025",
+            "url": "sounds/TR808WAV/BD/BD5025.wav"
+        },
+        {
+            "group": "Snare Drum",
+            "name": "SD2550",
+            "url": "sounds/TR808WAV/SD/SD2550.wav"
+        },
+        {
+            "group": "Cymbal",
+            "name": "CY0000",
+            "url": "sounds/TR808WAV/CY/CY0000.wav"
+        },
+        {
+            "group": "Closed Hi Hat",
+            "name": "CH",
+            "url": "sounds/TR808WAV/CH/CH.wav"
+        }
+    ],
+    "sounds": [
+        {
+            "group": "Bass Drum",
+            "files": [
+                {
+                    "name": "BD0000",
+                    "url": "sounds/TR808WAV/BD/BD0000.wav"
+                },
+                {
+                    "name": "BD0010",
+                    "url": "sounds/TR808WAV/BD/BD0010.wav"
+                },
+                {
+                    "name": "BD0025",
+                    "url": "sounds/TR808WAV/BD/BD0025.wav"
+                },
+                {
+                    "name": "BD0050",
+                    "url": "sounds/TR808WAV/BD/BD0050.wav"
+                },
+                {
+                    "name": "BD0075",
+                    "url": "sounds/TR808WAV/BD/BD0075.wav"
+                },
+                {
+                    "name": "BD1000",
+                    "url": "sounds/TR808WAV/BD/BD1000.wav"
+                },
+                {
+                    "name": "BD1010",
+                    "url": "sounds/TR808WAV/BD/BD1010.wav"
+                },
+                {
+                    "name": "BD1025",
+                    "url": "sounds/TR808WAV/BD/BD1025.wav"
+                },
+                {
+                    "name": "BD1050",
+                    "url": "sounds/TR808WAV/BD/BD1050.wav"
+                },
+                {
+                    "name": "BD1075",
+                    "url": "sounds/TR808WAV/BD/BD1075.wav"
+                },
+                {
+                    "name": "BD2500",
+                    "url": "sounds/TR808WAV/BD/BD2500.wav"
+                },
+                {
+                    "name": "BD2510",
+                    "url": "sounds/TR808WAV/BD/BD2510.wav"
+                },
+                {
+                    "name": "BD2525",
+                    "url": "sounds/TR808WAV/BD/BD2525.wav"
+                },
+                {
+                    "name": "BD2550",
+                    "url": "sounds/TR808WAV/BD/BD2550.wav"
+                },
+                {
+                    "name": "BD2575",
+                    "url": "sounds/TR808WAV/BD/BD2575.wav"
+                },
+                {
+                    "name": "BD5000",
+                    "url": "sounds/TR808WAV/BD/BD5000.wav"
+                },
+                {
+                    "name": "BD5010",
+                    "url": "sounds/TR808WAV/BD/BD5010.wav"
+                },
+                {
+                    "name": "BD5025",
+                    "url": "sounds/TR808WAV/BD/BD5025.wav"
+                },
+                {
+                    "name": "BD5050",
+                    "url": "sounds/TR808WAV/BD/BD5050.wav"
+                },
+                {
+                    "name": "BD5075",
+                    "url": "sounds/TR808WAV/BD/BD5075.wav"
+                },
+                {
+                    "name": "BD7500",
+                    "url": "sounds/TR808WAV/BD/BD7500.wav"
+                },
+                {
+                    "name": "BD7510",
+                    "url": "sounds/TR808WAV/BD/BD7510.wav"
+                },
+                {
+                    "name": "BD7525",
+                    "url": "sounds/TR808WAV/BD/BD7525.wav"
+                },
+                {
+                    "name": "BD7550",
+                    "url": "sounds/TR808WAV/BD/BD7550.wav"
+                },
+                {
+                    "name": "BD7575",
+                    "url": "sounds/TR808WAV/BD/BD7575.wav"
+                }
+            ]
+        },
+        {
+            "group": "Snare Drum",
+            "files": [
+                {
+                    "name": "SD0000",
+                    "url": "sounds/TR808WAV/SD/SD0000.wav"
+                },
+                {
+                    "name": "SD0010",
+                    "url": "sounds/TR808WAV/SD/SD0010.wav"
+                },
+                {
+                    "name": "SD0025",
+                    "url": "sounds/TR808WAV/SD/SD0025.wav"
+                },
+                {
+                    "name": "SD0050",
+                    "url": "sounds/TR808WAV/SD/SD0050.wav"
+                },
+                {
+                    "name": "SD0075",
+                    "url": "sounds/TR808WAV/SD/SD0075.wav"
+                },
+                {
+                    "name": "SD1000",
+                    "url": "sounds/TR808WAV/SD/SD1000.wav"
+                },
+                {
+                    "name": "SD1010",
+                    "url": "sounds/TR808WAV/SD/SD1010.wav"
+                },
+                {
+                    "name": "SD1025",
+                    "url": "sounds/TR808WAV/SD/SD1025.wav"
+                },
+                {
+                    "name": "SD1050",
+                    "url": "sounds/TR808WAV/SD/SD1050.wav"
+                },
+                {
+                    "name": "SD1075",
+                    "url": "sounds/TR808WAV/SD/SD1075.wav"
+                },
+                {
+                    "name": "SD2500",
+                    "url": "sounds/TR808WAV/SD/SD2500.wav"
+                },
+                {
+                    "name": "SD2510",
+                    "url": "sounds/TR808WAV/SD/SD2510.wav"
+                },
+                {
+                    "name": "SD2525",
+                    "url": "sounds/TR808WAV/SD/SD2525.wav"
+                },
+                {
+                    "name": "SD2550",
+                    "url": "sounds/TR808WAV/SD/SD2550.wav"
+                },
+                {
+                    "name": "SD2575",
+                    "url": "sounds/TR808WAV/SD/SD2575.wav"
+                },
+                {
+                    "name": "SD5000",
+                    "url": "sounds/TR808WAV/SD/SD5000.wav"
+                },
+                {
+                    "name": "SD5010",
+                    "url": "sounds/TR808WAV/SD/SD5010.wav"
+                },
+                {
+                    "name": "SD5025",
+                    "url": "sounds/TR808WAV/SD/SD5025.wav"
+                },
+                {
+                    "name": "SD5050",
+                    "url": "sounds/TR808WAV/SD/SD5050.wav"
+                },
+                {
+                    "name": "SD5075",
+                    "url": "sounds/TR808WAV/SD/SD5075.wav"
+                },
+                {
+                    "name": "SD7500",
+                    "url": "sounds/TR808WAV/SD/SD7500.wav"
+                },
+                {
+                    "name": "SD7510",
+                    "url": "sounds/TR808WAV/SD/SD7510.wav"
+                },
+                {
+                    "name": "SD7525",
+                    "url": "sounds/TR808WAV/SD/SD7525.wav"
+                },
+                {
+                    "name": "SD7550",
+                    "url": "sounds/TR808WAV/SD/SD7550.wav"
+                },
+                {
+                    "name": "SD7575",
+                    "url": "sounds/TR808WAV/SD/SD7575.wav"
+                }
+            ]
+        },
+        {
+            "group": "Low Tom",
+            "files": [
+                {
+                    "name": "LT00",
+                    "url": "sounds/TR808WAV/LT/LT00.wav"
+                },
+                {
+                    "name": "LT10",
+                    "url": "sounds/TR808WAV/LT/LT10.wav"
+                },
+                {
+                    "name": "LT25",
+                    "url": "sounds/TR808WAV/LT/LT25.wav"
+                },
+                {
+                    "name": "LT50",
+                    "url": "sounds/TR808WAV/LT/LT50.wav"
+                },
+                {
+                    "name": "LT75",
+                    "url": "sounds/TR808WAV/LT/LT75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Mid Tom",
+            "files": [
+                {
+                    "name": "MT00",
+                    "url": "sounds/TR808WAV/MT/MT00.wav"
+                },
+                {
+                    "name": "MT10",
+                    "url": "sounds/TR808WAV/MT/MT10.wav"
+                },
+                {
+                    "name": "MT25",
+                    "url": "sounds/TR808WAV/MT/MT25.wav"
+                },
+                {
+                    "name": "MT50",
+                    "url": "sounds/TR808WAV/MT/MT50.wav"
+                },
+                {
+                    "name": "MT75",
+                    "url": "sounds/TR808WAV/MT/MT75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Hi Tom",
+            "files": [
+                {
+                    "name": "HT00",
+                    "url": "sounds/TR808WAV/HT/HT00.wav"
+                },
+                {
+                    "name": "HT10",
+                    "url": "sounds/TR808WAV/HT/HT10.wav"
+                },
+                {
+                    "name": "HT25",
+                    "url": "sounds/TR808WAV/HT/HT25.wav"
+                },
+                {
+                    "name": "HT50",
+                    "url": "sounds/TR808WAV/HT/HT50.wav"
+                },
+                {
+                    "name": "HT75",
+                    "url": "sounds/TR808WAV/HT/HT75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Low Conga",
+            "files": [
+                {
+                    "name": "LC00",
+                    "url": "sounds/TR808WAV/LC/LC00.wav"
+                },
+                {
+                    "name": "LC10",
+                    "url": "sounds/TR808WAV/LC/LC10.wav"
+                },
+                {
+                    "name": "LC25",
+                    "url": "sounds/TR808WAV/LC/LC25.wav"
+                },
+                {
+                    "name": "LC50",
+                    "url": "sounds/TR808WAV/LC/LC50.wav"
+                },
+                {
+                    "name": "LC75",
+                    "url": "sounds/TR808WAV/LC/LC75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Mid Conga",
+            "files": [
+                {
+                    "name": "MC00",
+                    "url": "sounds/TR808WAV/MC/MC00.wav"
+                },
+                {
+                    "name": "MC10",
+                    "url": "sounds/TR808WAV/MC/MC10.wav"
+                },
+                {
+                    "name": "MC25",
+                    "url": "sounds/TR808WAV/MC/MC25.wav"
+                },
+                {
+                    "name": "MC50",
+                    "url": "sounds/TR808WAV/MC/MC50.wav"
+                },
+                {
+                    "name": "MC75",
+                    "url": "sounds/TR808WAV/MC/MC75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Hi Conga",
+            "files": [
+                {
+                    "name": "HC00",
+                    "url": "sounds/TR808WAV/HC/HC00.wav"
+                },
+                {
+                    "name": "HC10",
+                    "url": "sounds/TR808WAV/HC/HC10.wav"
+                },
+                {
+                    "name": "HC25",
+                    "url": "sounds/TR808WAV/HC/HC25.wav"
+                },
+                {
+                    "name": "HC50",
+                    "url": "sounds/TR808WAV/HC/HC50.wav"
+                },
+                {
+                    "name": "HC75",
+                    "url": "sounds/TR808WAV/HC/HC75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Rim Shot",
+            "files": [
+                {
+                    "name": "RS",
+                    "url": "sounds/TR808WAV/RS/RS.wav"
+                }
+            ]
+        },
+        {
+            "group": "Claves",
+            "files": [
+                {
+                    "name": "CL",
+                    "url": "sounds/TR808WAV/CL/CL.wav"
+                }
+            ]
+        },
+        {
+            "group": "Hand Clap",
+            "files": [
+                {
+                    "name": "CP",
+                    "url": "sounds/TR808WAV/CP/CP.wav"
+                }
+            ]
+        },
+        {
+            "group": "Maracas",
+            "files": [
+                {
+                    "name": "MA",
+                    "url": "sounds/TR808WAV/MA/MA.wav"
+                }
+            ]
+        },
+        {
+            "group": "Cowbell",
+            "files": [
+                {
+                    "name": "CB",
+                    "url": "sounds/TR808WAV/CB/CB.wav"
+                }
+            ]
+        },
+        {
+            "group": "Cymbal",
+            "files": [
+                {
+                    "name": "CY0000",
+                    "url": "sounds/TR808WAV/CY/CY0000.wav"
+                },
+                {
+                    "name": "CY0010",
+                    "url": "sounds/TR808WAV/CY/CY0010.wav"
+                },
+                {
+                    "name": "CY0025",
+                    "url": "sounds/TR808WAV/CY/CY0025.wav"
+                },
+                {
+                    "name": "CY0050",
+                    "url": "sounds/TR808WAV/CY/CY0050.wav"
+                },
+                {
+                    "name": "CY0075",
+                    "url": "sounds/TR808WAV/CY/CY0075.wav"
+                },
+                {
+                    "name": "CY1000",
+                    "url": "sounds/TR808WAV/CY/CY1000.wav"
+                },
+                {
+                    "name": "CY1010",
+                    "url": "sounds/TR808WAV/CY/CY1010.wav"
+                },
+                {
+                    "name": "CY1025",
+                    "url": "sounds/TR808WAV/CY/CY1025.wav"
+                },
+                {
+                    "name": "CY1050",
+                    "url": "sounds/TR808WAV/CY/CY1050.wav"
+                },
+                {
+                    "name": "CY1075",
+                    "url": "sounds/TR808WAV/CY/CY1075.wav"
+                },
+                {
+                    "name": "CY2500",
+                    "url": "sounds/TR808WAV/CY/CY2500.wav"
+                },
+                {
+                    "name": "CY2510",
+                    "url": "sounds/TR808WAV/CY/CY2510.wav"
+                },
+                {
+                    "name": "CY2525",
+                    "url": "sounds/TR808WAV/CY/CY2525.wav"
+                },
+                {
+                    "name": "CY2550",
+                    "url": "sounds/TR808WAV/CY/CY2550.wav"
+                },
+                {
+                    "name": "CY2575",
+                    "url": "sounds/TR808WAV/CY/CY2575.wav"
+                },
+                {
+                    "name": "CY5000",
+                    "url": "sounds/TR808WAV/CY/CY5000.wav"
+                },
+                {
+                    "name": "CY5010",
+                    "url": "sounds/TR808WAV/CY/CY5010.wav"
+                },
+                {
+                    "name": "CY5025",
+                    "url": "sounds/TR808WAV/CY/CY5025.wav"
+                },
+                {
+                    "name": "CY5050",
+                    "url": "sounds/TR808WAV/CY/CY5050.wav"
+                },
+                {
+                    "name": "CY5075",
+                    "url": "sounds/TR808WAV/CY/CY5075.wav"
+                },
+                {
+                    "name": "CY7500",
+                    "url": "sounds/TR808WAV/CY/CY7500.wav"
+                },
+                {
+                    "name": "CY7510",
+                    "url": "sounds/TR808WAV/CY/CY7510.wav"
+                },
+                {
+                    "name": "CY7525",
+                    "url": "sounds/TR808WAV/CY/CY7525.wav"
+                },
+                {
+                    "name": "CY7550",
+                    "url": "sounds/TR808WAV/CY/CY7550.wav"
+                },
+                {
+                    "name": "CY7575",
+                    "url": "sounds/TR808WAV/CY/CY7575.wav"
+                }
+            ]
+        },
+        {
+            "group": "Open Hi Hat",
+            "files": [
+                {
+                    "name": "OH00",
+                    "url": "sounds/TR808WAV/OH/OH00.wav"
+                },
+                {
+                    "name": "OH10",
+                    "url": "sounds/TR808WAV/OH/OH10.wav"
+                },
+                {
+                    "name": "OH25",
+                    "url": "sounds/TR808WAV/OH/OH25.wav"
+                },
+                {
+                    "name": "OH50",
+                    "url": "sounds/TR808WAV/OH/OH50.wav"
+                },
+                {
+                    "name": "OH75",
+                    "url": "sounds/TR808WAV/OH/OH75.wav"
+                }
+            ]
+        },
+        {
+            "group": "Closed Hi Hat",
+            "files": [
+                {
+                    "name": "CH",
+                    "url": "sounds/TR808WAV/CH/CH.wav"
+                }
+            ]
+        }
+    ]
+}
