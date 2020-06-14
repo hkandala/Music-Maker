@@ -81,6 +81,7 @@ musicMaker.prototype.render = function (id, id1) {
     (function (i) {
       var req = new XMLHttpRequest();
       req.open('GET', that.tracks[i].url, true);
+      req.setRequestHeader('Accept', 'audio/wav');
       req.responseType = 'arraybuffer';
       req.onload = function() {
         that.audioCtx.decodeAudioData(req.response, function(buffer) {
